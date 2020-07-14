@@ -10,11 +10,11 @@ git clone https://github.com/reconcorps/reconcorps.github.io.git
 
 * Beri commit judul atau message yang jelas 
 
-`git commit -m \"Add new artikel \(judul\)\"`
+`git commit -m "Add new artikel (judul)"`
 
-    * Jika berisi writeup beri judul dan commit messagenya sesuai peraturan berikut:
-
-        `\[Nama Lomba\] - Nama Challenge`
+    Jika berisi writeup beri judul dan commit messagenya sesuai peraturan berikut:
+    
+        `[Nama Lomba] - Nama Challenge`
 
 * Lalu dipush ke repo dan branch source.
 
