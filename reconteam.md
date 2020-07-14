@@ -1,6 +1,6 @@
-# Cara menambah artikel
+# Cara menambah artikel dan aturannya
 
-* clone [reponya](https://github.con/reconcorps/reconcorps.github.io)
+* Clone [reponya](https://github.con/reconcorps/reconcorps.github.io)
 
 ```
 git clone https://github.com/reconcorps/reconcorps.github.io.git
@@ -8,14 +8,50 @@ git clone https://github.com/reconcorps/reconcorps.github.io.git
 
 * Tulis artikel di folder src/posts dalam bentuk markdown sesuai aturan [berikut](https://raw.githubusercontent.com/panr/gatsby-starter-hello-friend/master/src/pages/showcase.md) atau [ini](https://raw.githubusercontent.com/panr/gatsby-starter-hello-friend/master/src/posts/hello.md)
 
+* Tambahkan hasil tulisan kedalam repo
+
+`git add .`
+
 * Beri commit judul atau message yang jelas 
 
-`git commit -m "Add new artikel (judul)"`
+```
+git commit -m "Add new artikel (judul)"
+```
 
-    Jika berisi writeup beri judul dan commit messagenya sesuai peraturan berikut:
-    
-        `[Nama Lomba] - Nama Challenge`
+* Jika berisi writeup beri judul dancommit messagenya sesuai peraturanberikut:
+
+`[Nama Lomba] - Nama Challenge`
 
 * Lalu dipush ke repo dan branch source.
 
-`git push origin source`
+```
+git push origin source
+```
+
+# Cara preview website secara lokal
+
+* Clone [reponya](https://github.con/reconcorps/reconcorps.github.io)
+
+```
+git clone https://github.com/reconcorps/reconcorps.github.io.git
+```
+
+* Lalu install dependency yang dibutuhkan dengan npm
+
+```
+npm install
+```
+
+* Setelah sudah jalankan melalu gatsby atau yarn
+
+```
+yarn dev
+```
+
+atau 
+
+```
+gatsby clean && gatsby develop
+```
+
+* Jika ingin menghapus dipendencynya langsung hapus saja folder `node_modulesnya`
