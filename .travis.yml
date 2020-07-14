@@ -1,0 +1,18 @@
+language: node_js
+cache:
+  directories:
+    - ~/.npm
+notifications:
+  email:
+    recipients:
+      - haikalvidya@gmail.com
+before_script:
+  - npm install -g gatsby-cli
+node_js:
+  - "10"
+deploy:
+  provider: script
+  script: cd reconcorps/ && yarn install && yarn run deploy
+  skip_cleanup: true
+  on:
+    branch: master
