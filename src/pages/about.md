@@ -14,7 +14,7 @@ We are a CTF team that has 3 members. Each member has their own expertise. This 
 
  - [**phyxkal**](https://phyxkal.github.io)
  - [**exzettabyte**](https://exzettabyte.me)
- - [**loncat**](https://http://lcat.dev)
+ - [**loncat**](https://lcat.dev)
 
 So, here we are... enjoy our website content!
 
