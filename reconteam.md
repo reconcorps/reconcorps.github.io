@@ -15,7 +15,7 @@ git clone https://github.com/reconcorps/reconcorps.github.io.git
 * Beri commit judul atau message yang jelas 
 
 ```
-git commit -m "Add new artikel (judul)"
+git commit -m "Add new article (judul)"
 ```
 
 * Jika berisi writeup beri judul dancommit messagenya sesuai peraturanberikut:
@@ -27,6 +27,8 @@ git commit -m "Add new artikel (judul)"
 ```
 git push origin source
 ```
+
+### PS: jika mau menambahkan gambar tambahkan nama folder di src/images/{nama artikel}
 
 # Cara preview website secara lokal
 
